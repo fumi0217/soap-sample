@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C5BCFABC-472E-4400-9044-864519E01374}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MtomI18nService", "src\MtomI18nService\MtomI18nService.csproj", "{17427948-5725-4D12-A97C-9B9D475EEC61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MtomI18nClient", "src\MtomI18nClient\MtomI18nClient.csproj", "{B69D25FB-0FE3-4262-9EF1-98EEF05A4C26}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17427948-5725-4D12-A97C-9B9D475EEC61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17427948-5725-4D12-A97C-9B9D475EEC61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17427948-5725-4D12-A97C-9B9D475EEC61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17427948-5725-4D12-A97C-9B9D475EEC61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B69D25FB-0FE3-4262-9EF1-98EEF05A4C26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B69D25FB-0FE3-4262-9EF1-98EEF05A4C26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B69D25FB-0FE3-4262-9EF1-98EEF05A4C26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B69D25FB-0FE3-4262-9EF1-98EEF05A4C26}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{17427948-5725-4D12-A97C-9B9D475EEC61} = {C5BCFABC-472E-4400-9044-864519E01374}
+		{B69D25FB-0FE3-4262-9EF1-98EEF05A4C26} = {C5BCFABC-472E-4400-9044-864519E01374}
+	EndGlobalSection
+EndGlobal
